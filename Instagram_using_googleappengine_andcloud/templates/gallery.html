@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallary</title>
+</head>
+<body>
+
+<h1>Shilpa shree</h1>
+<h1>1001540443</h1>
+<br>
+
+
+<form action="/delete" method = "POST" enctype="multipart/form-data">
+
+    Select file to download, edit or delete: <select name="files">
+    {% for i in instagram %}
+        <option value="{{i.title}}">{{i.title}}</option>
+        {% endfor%}}
+    </select><br>
+    <input type="submit" name = "delete" value = "Delete Image" />
+</form>
+<form action="/rename" method = "POST" enctype="multipart/form-data">
+{% for i in instagram %}
+    	<strong></strong><img src="{{ i.image_url }}" alt="Sorry! Image not available at this time" height="200px" width="200px"/><br>
+    	<strong>Title:</strong> {{ i.title }} <br>
+    	<strong>Creator</strong> {{ i.creator }} <br>
+		<strong>You can Rename your File Here:</strong><br>
+		<input type="hidden" name="image_url" value="{{ i.image_url }}"/>
+		<input type="hidden" name="file_source" value="{{ i.title }}" />
+		<input type="hidden" name="description" value="{{ description }}" />
+		<input type ="text" name="name_change"/><br><br>
+{% endfor %}
+ <br>
+<br>
+<input type="submit" name="rename" value="Rename the file"/>
+</form>
+<h3>Time for user request : &nbsp; {{ user_time }}</h3> <br><br>
+<h3>Time for cloud to handle the user request : &nbsp; {{ cloud_time }}</h3>
+
+</body>
+</html>

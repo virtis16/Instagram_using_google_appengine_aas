@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+<h1>Shilpa Shree</h1>
+<h2>1001540443</h2>
+
+<form action="/upload" method = "POST" enctype="multipart/form-data">
+    <input type="hidden" name="username" value={{ username }}>
+    Choose file to upload: <input type = "file" name = "file" /><br>
+     Title of the image:    <input type = "text" name = "title" /><br>
+
+      Select the like value: <select name="ratings">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select><br>
+       <!--Comments:              <input type = "textarea" name = "comments" rows="3" /><br>-->
+        Comments: <textarea name="comments" cols="30" rows="2"></textarea><br>
+
+    <input type="submit" name = "click" value = "Upload Image" />
+
+
+</form >
+
+<form action="../view" method = "POST" enctype="multipart/form-data">
+    <input type="submit" name = "click" value = "View Image" />
+
+
+</form >
+<br>
+<form action="../search" method = "POST" enctype="multipart/form-data">
+    <input type="submit" name = "click" value = "Search Image" />
+
+
+</form >
+
+
+</body>
+</html>

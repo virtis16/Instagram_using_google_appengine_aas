@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "vernal-reality-202012",
+  "private_key_id": "ae48dd2450f9e01c74813e3dd9e9660813a1b9b6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDBvr9oEEOrg1Pu\nqxw239fMn4NzRHRYc8Wqm5gtFHNxl6dteEaL+vwZQ9imKwofOoPszBabCGwkyiR0\niWy1Eh8J2u3LbThW2OHh/wV+rpBR4Ck62DMgoR4bvEnOObXmG2pBSNidEt0fykpw\nXNCx5dOQ74DrDaB9FcKM1XHdm0eQAGhsuzu8c/0vBSjVxU6GByIohi4gnpPCR9jE\nqlyhrmZcJa+45ivxhEJyFWHds12mHUdpSHpFdXs0xtsjyLh29Wt4kVLGJyDnmp3y\n2X2zeYk0B7ApMP7XVsWDGN6BNSocAFSi9+srVSX9T88RAqQn9BwktDU0y4JNww4Y\n50NoYtwlAgMBAAECggEARMd0CLvZYg5doflBq2NcpyorjqSLDwmObwoMhFhhwT4e\ntFiB5tijXU6+HwNhdQOfaNVs4v2i8o6GUY6ltkQoG6YKS/DKkt4slj+j0jyjREWp\nLVgqElfQKfV2WA0Zu4YY+vMi3uQe9tWoBmqUtcrKiAXWRNuSEUXDyp5NbWfeCErV\n2i1p3yz17+otWwrfqQdTsGNuOjDT+uCPGCyb7DPmCtf6Nkv1hzHz0f+e9EBpx3z0\nm7LM764Ae1E+ydV10Vesi6YD06bvuwB5nViSXoFgy5u56tRfQkYmBVc/q1kEygVw\nwOawocf8gIOkfuhUuY4YvhUu4CQmk6YL9rsFBNRK0wKBgQD2TfsbxJIcX44mALqJ\nOWngrb6/fEHdm5L2du5yG0Gz7ehfdO6w7VcET9WngQvnNpnkiF2Mz0CXIqql/Uo3\nYavt0QGET6mPtF8VnKXtlCMV6wl8/2UzukMX34nwVi7amXN/G4HTlYyVPA3YI6lm\nMZFZ9tc22nACSOm92KVr3KNVjwKBgQDJXx+AgBLPIoGklHuFPnP5XGASAMBx0r6c\ngDtjvw4/GHvxwncy+anGEg7cwSfDG8ZO1vSBK/0+riy2KiDH7OHzLbFW9Vn7wgWJ\nmqVoT6rgUXF/tqL5qtzHa4alCGUTdVfwCcJGH9YmzCkUiWrfoaOxIJxHBX5Hi83v\nSSz3O11hCwKBgCwePbt0k2NnrlOaT89irFdlZ8Ru4nFqe4GQPhfMUBGFrNjkXhjs\n+mg4UKHnWJV6z0gDMRaWzRAFUqHW4+NVqHE5vdbQWiP2gA2j+Ii8vyge6J0uNhd0\n5q2xCck19sCLOgfrim622+6jSiuL/7zhZhLCRzx5FhUisFOkKcVPSSZ7AoGBAL/I\n8ca/s6pFMfXeWJn5dhjrKrBauO5vCY0h7+4620Wqevkw/be14kS7lB4ZdFY1ULRr\nsyiHDcUxu3GvQ9NFP5kMTpcES7QkAIQiniBvp83Go3NALY3ddjITrYPmL+XNX3hE\nwxtoXNxMm19s1TWxy6X56f0WNUPM2dBpAANjLbcrAoGBAIhegwl9TXH6/jKuxDpq\nSp8bV2l4JeynqVijkB3xffEm2+SK9mcRR5kpLFKbvBQELvPkzyb5fa+UzLKSfydj\nKMKd+ZvnKhgLtrNzMSmTZ3nfpZkNFDWckBezoKAOn4Y8Mw4VIq+12pDFk359Wu18\nEGu6nL02CZIto+1IhPbBrCS2\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloud-7-service-account-key@vernal-reality-202012.iam.gserviceaccount.com",
+  "client_id": "109175960297211864181",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-7-service-account-key%40vernal-reality-202012.iam.gserviceaccount.com"
+}

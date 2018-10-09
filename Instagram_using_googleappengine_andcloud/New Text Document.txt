@@ -1,0 +1,4 @@
+Flask==0.11
+gunicorn==19.6.0
+PyMySQL==0.8.0
+google-cloud==0.32.0

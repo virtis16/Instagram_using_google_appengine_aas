@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+</head>
+<body>
+<form action="/search_image" method = "POST" enctype="multipart/form-data">
+
+
+     Search String:    <input type = "text" name = "search" /><br>
+
+
+    <input type="submit" name = "click" value = "View Image" />
+  </form>
+<form action="/search_image_creator" method = "POST" enctype="multipart/form-data">
+
+
+     Search String based on creator:
+     <select name="creator">
+     {% for i in creator_name %}
+     <option value="{{ i.creator }}">{{ i.creator }}
+     </option>
+     {% endfor %}
+     </select>
+
+
+    <input type="submit" name = "search" value = "View Image" />
+  </form>
+</body>
+</html>
